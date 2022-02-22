@@ -1,0 +1,21 @@
+<?php
+    include_once './header.php';
+?>
+
+<div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="./static/logo-ufjf.png" alt="" width="72" height="57">
+    <h1 class="display-5 fw-bold">Registrar-se</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Que tipo de usuário você é?</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="signup-cidadao.php" class="btn btn-primary btn-lg px-4 gap-3">Cidadão</a>
+        <a href="signup-estudante.php" class="btn btn-primary btn-lg px-4 gap-3">Estudante</a>
+        <a href="signup-professor.php" class="btn btn-primary btn-lg px-4 gap-3">Professor</a>
+        <a href="signup-tecnico.php" class="btn btn-primary btn-lg px-4 gap-3">Técnico ProEx</a>
+      </div>
+    </div>
+  </div>
+
+<?php
+    include_once './footer.php';
+?>
